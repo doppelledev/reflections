@@ -20,3 +20,7 @@ What value do you think it offers?
 -How do the diagrams help you visualize the branch structure?
 		Diagrams make it more clear and easy to see what commits are in what branches, therefore knowing the branch structure and what
 	features some branches have and other don't.
+
+-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+		The result of merging two branches together is a new commit, the files in this commit have code that exists in the two branches.
+		We represent it in the diagram the way we do, because the new commit has now 2 parents, which are the two branches we just merged.
