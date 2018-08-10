@@ -1,0 +1,27 @@
+-How did viewing a diff between two versions of a file help you see the bug that was introduced?
+		If the first version was working, and the second version had a bug, then that bug must be in on of the places where the two version 
+	differ. Using a tool such as diff will help us find the differences, which will help us fiind the bug.
+
+-How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+		It will make it easier to remember how you fixed some problems you encountered. It will also help you to improve and experiment on 
+	the code without the fear of copmletely losing the progress of the project you're working on.
+
+-What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+		Manual commits:	pros:	-More flexibility: we choose exactly when to commit judging by the changes we made, so we don't have
+								too big/too small commits.
+								-Not allowing changes to happen while you're still editing, which may result in wrong commits
+						cons:
+								-The possibility of forgetting to commit at the right time.
+
+-Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+		Because Git is for code, and in coding, we use multiple files that are related to eachother, if we change one it may affect the 
+	others. On the other hand, Google Docs is for text, which can be written in one file, changing that file won't affect other files.
+
+-How can you use the commands git log and git diff to view the history of files?
+		We use 'git log' to view the history of commits, which contains the id of the commit, the date, the author and a message explainig
+	the change.
+		We use 'git diff' to compare to commits, which allows us to see how many lines we've added/removed.
+
+-How might using version control make you more confident to make changes that could break something?
+		Version controle makes it possible to find exactly the commit that introduced a bug, just find the latest commit where the bug 
+	doesn't exist using 'git checkout', the commit after it is the one you're looking for. From then you can just fix it and commit again.
