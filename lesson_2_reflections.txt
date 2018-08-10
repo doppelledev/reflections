@@ -24,3 +24,8 @@ What value do you think it offers?
 -What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 		The result of merging two branches together is a new commit, the files in this commit have code that exists in the two branches.
 		We represent it in the diagram the way we do, because the new commit has now 2 parents, which are the two branches we just merged.
+
+-What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+		The pros of automatic merging is that it saves time and effort, it's so hard to merge two files of code manually, let alone 
+	a whole project. The cons are if someone deleted the definition of a function, and someone else didn't, and called that function
+	somewhere in the file, I don't think Git will mark that as a conflict when trying to merge, and after the merge there will be errors.
