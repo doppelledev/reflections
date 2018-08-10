@@ -6,3 +6,10 @@
 -Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 		I want to always be ready when the code changes, I don't want it to change while I'm working on it. Also,
 	if I know there was a bug in the code, I'd like to fix it first before pulling.
+
+-Describe the differences between forks, clones, and branches. When would you use one instead of another?
+		I'd fork an already existing repository, if I want to edit some files in a it and make my own
+	version of the project.
+		I'd clone a repository to make a local copy of it on my computer.
+		I'd branch a commit to implement a new feature or do some experimental work that I don't want to be official yet, after
+	I'm sure that I want it to go ofical, I can just merge it with the master branch.
