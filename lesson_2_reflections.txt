@@ -7,3 +7,7 @@ What value do you think it offers?
 		Before committing, we add fiels we want to commit to the staging area. Somtiems we don't want
 	to commit certain files because we didn't finish working on them yet, that's where the staging area
 	is useful.
+
+-How can you use the staging area to make sure you have one commit per logical change?
+		Maybe I was working on two features, and I completed them both before comitting anything, I'd want to commit he first feature,
+	then the second, that way I can have one logical change per commit. This all can be done using the staging area.
