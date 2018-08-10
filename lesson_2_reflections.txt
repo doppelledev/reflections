@@ -11,3 +11,8 @@ What value do you think it offers?
 -How can you use the staging area to make sure you have one commit per logical change?
 		Maybe I was working on two features, and I completed them both before comitting anything, I'd want to commit he first feature,
 	then the second, that way I can have one logical change per commit. This all can be done using the staging area.
+
+-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+		I might want to add a new feature to my project, this will change the version but I don't wan't this version to be the official one
+	yet, so it's just an experimental version. git allows me to create a new branch to do all this, I can add any feature I want and test it
+	without affection the official version, while keeping everything clean and organized.
