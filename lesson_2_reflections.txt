@@ -16,3 +16,7 @@ What value do you think it offers?
 		I might want to add a new feature to my project, this will change the version but I don't wan't this version to be the official one
 	yet, so it's just an experimental version. git allows me to create a new branch to do all this, I can add any feature I want and test it
 	without affection the official version, while keeping everything clean and organized.
+
+-How do the diagrams help you visualize the branch structure?
+		Diagrams make it more clear and easy to see what commits are in what branches, therefore knowing the branch structure and what
+	features some branches have and other don't.
