@@ -13,3 +13,12 @@
 		I'd clone a repository to make a local copy of it on my computer.
 		I'd branch a commit to implement a new feature or do some experimental work that I don't want to be official yet, after
 	I'm sure that I want it to go ofical, I can just merge it with the master branch.
+
+-What is the benefit of having a copy of the last known state of the remote stored locally?
+		The benefit is that you'll be able to 'get diff origin/master master' to see what changes have been made in the remote
+	repository. You can then solve conflicts if they ever existed.
+
+-How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+		Without using Git ot Github, it would be hard to collaborate with other people, I don't know hwo we would share our code,
+	maybe upload it online every single time we make a change? And download other poeple code every time they make a change?
+	That would be so inefficient and impractical. Nothing would be easier without Git and Github.
