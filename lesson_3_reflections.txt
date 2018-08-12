@@ -22,3 +22,8 @@
 		Without using Git ot Github, it would be hard to collaborate with other people, I don't know hwo we would share our code,
 	maybe upload it online every single time we make a change? And download other poeple code every time they make a change?
 	That would be so inefficient and impractical. Nothing would be easier without Git and Github.
+
+-When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+		I already answered this question like 3 imes now. As I already said, I would make changes to a separate branch because
+	I wouldn't want these changes to be official yet, they may contain typos, bugs...etc. After I'm confident my branch is working
+	as expected and ready to be officla, I can then merge it to master.
